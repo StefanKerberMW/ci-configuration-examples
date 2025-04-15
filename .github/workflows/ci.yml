@@ -27,6 +27,11 @@ jobs:
       # Sets up MATLAB on a GitHub-hosted runner
       - name: Set up MATLAB
         uses: matlab-actions/setup-matlab@v2
+        with:
+          products: >
+            Simulink
+            Simulink_Test
+            Audio_Toolbox
       
       # Runs a command
       - name: Run script
