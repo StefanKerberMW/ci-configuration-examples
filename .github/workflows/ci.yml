@@ -29,7 +29,7 @@ jobs:
         uses: matlab-actions/setup-matlab@v2
         with:
           products: >
-            MATLAB Test
+            MATLAB_Test
             Audio_Toolbox
             Simulink
             Simulink_Test
